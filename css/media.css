@@ -1,0 +1,589 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /*
+Header
+*/
+
+
+    .header-caption .caption h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .header-caption .caption h1::after {
+        content: "";
+        animation-name: typing;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes typing {
+        1% {
+            content: "Y|";
+        }
+
+        5% {
+            content: "Yu|";
+        }
+
+        10% {
+            content: "Yus|";
+        }
+
+        15% {
+            content: "Yus |";
+        }
+
+        20% {
+            content: "Yus N|";
+        }
+
+        25% {
+            content: "Yus Na|";
+        }
+
+        30% {
+            content: "Yus Naz|";
+        }
+
+        35% {
+            content: "Yus Naze|";
+        }
+
+        40% {
+            content: "Yus Nazee|";
+        }
+
+        45% {
+            content: "Yus Nazeer|";
+        }
+
+        47% {
+            content: "Yus Nazeer|";
+        }
+
+        50% {
+            content: "Yus Nazee|";
+        }
+
+        55% {
+            content: "Yus Naze|";
+        }
+
+        60% {
+            content: "Yus Naz|";
+        }
+
+        65% {
+            content: "Yus Na|";
+        }
+
+        70% {
+            content: "Yus N|";
+        }
+
+        75% {
+            content: "Yus |";
+        }
+
+        80% {
+            content: "Yus|";
+        }
+
+        85% {
+            content: "Yu|";
+        }
+
+        90% {
+            content: "Y|";
+        }
+
+        95% {
+            content: "|";
+        }
+
+        100% {
+            content: "|";
+        }
+
+    }
+
+    .header-caption .caption h4 {
+        font-size: 18px;
+        margin-bottom: .1%;
+    }
+
+
+    .header-caption .caption h3 {
+        font-size: 16px;
+
+
+    }
+
+    .header-caption .caption button {
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+
+    .moving-icon i {
+        font-size: .5em;
+    }
+
+    .intro-caption h2 {
+
+        font-size: 4em;
+    }
+
+    .intro-caption p {
+
+        font-size: 1.5em;
+
+    }
+
+
+
+    /*
+    
+    About-me
+        */
+    .about-me .about-me-caption {
+        flex-wrap: wrap;
+    }
+
+    .about-me-caption .caption-item {
+        width: 100%;
+
+    }
+
+
+    .caption-item h2 {
+        font-size: 18px;
+    }
+
+    .about-me-statistics {
+        flex-wrap: wrap;
+    }
+
+    .about-me-statistics .stat-item {
+        width: 50%;
+        margin-bottom: 4%;
+
+    }
+
+    /*
+Services*/
+
+    .services-container {
+
+        flex-wrap: wrap;
+    }
+
+    .services-container .service-item {
+        width: 100%;
+        margin-bottom: 2.4%;
+
+    }
+
+    /*
+    Summary
+    */
+    .summary-container {
+
+        flex-wrap: wrap;
+    }
+
+    .summary-column {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .skills-container {
+
+        flex-wrap: wrap;
+
+    }
+
+    .skills-item {
+        width: 100%;
+    }
+
+    /*
+Gallery
+*/
+    .porfolio-gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-column {
+        width: 100%;
+    }
+
+
+    /* Testimonial*/
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonial-item {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    /*Contact
+    */
+
+    .contact-section {
+        flex-wrap: wrap;
+    }
+
+    .contact-item {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .contact-container .btn-container button {
+        padding: 4% 6%;
+        border-radius: 50px;
+    }
+
+    .grow {
+        order: -1;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .header-caption .caption h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .header-caption .caption h1::after {
+        content: "";
+        animation-name: typing;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes typing {
+        1% {
+            content: "Y|";
+        }
+
+        5% {
+            content: "Yu|";
+        }
+
+        10% {
+            content: "Yus|";
+        }
+
+        15% {
+            content: "Yus |";
+        }
+
+        20% {
+            content: "Yus N|";
+        }
+
+        25% {
+            content: "Yus Na|";
+        }
+
+        30% {
+            content: "Yus Naz|";
+        }
+
+        35% {
+            content: "Yus Naze|";
+        }
+
+        40% {
+            content: "Yus Nazee|";
+        }
+
+        45% {
+            content: "Yus Nazeer|";
+        }
+
+        47% {
+            content: "Yus Nazeer|";
+        }
+
+        50% {
+            content: "Yus Nazee|";
+        }
+
+        55% {
+            content: "Yus Naze|";
+        }
+
+        60% {
+            content: "Yus Naz|";
+        }
+
+        65% {
+            content: "Yus Na|";
+        }
+
+        70% {
+            content: "Yus N|";
+        }
+
+        75% {
+            content: "Yus |";
+        }
+
+        80% {
+            content: "Yus|";
+        }
+
+        85% {
+            content: "Yu|";
+        }
+
+        90% {
+            content: "Y|";
+        }
+
+        95% {
+            content: "|";
+        }
+
+        100% {
+            content: "|";
+        }
+
+    }
+
+    .header-caption .caption h4 {
+        font-size: 20px;
+        margin-bottom: .1%;
+    }
+
+
+    .header-caption .caption h3 {
+        font-size: 18px;
+
+    }
+
+    .header-caption .caption button {
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+
+
+    .moving-icon i {
+        font-size: 1em;
+    }
+
+
+    /*
+About me
+*/
+    .caption-item h2 {
+        font-size: 20px;
+    }
+
+    .about-me .about-me-caption {
+        flex-wrap: wrap;
+    }
+
+    .about-me-caption .caption-item {
+        width: 100%;
+
+    }
+
+    .about-me-statistics {
+        flex-wrap: wrap;
+    }
+
+    .about-me-statistics .stat-item {
+        width: 50%;
+        margin-bottom: 4%;
+
+    }
+
+    /* Summary*/
+    .skills-container {
+
+        flex-wrap: wrap;
+
+    }
+
+    .skills-item {
+        width: 100%;
+    }
+
+    /*
+Gallery
+*/
+    .porfolio-gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .gallery-column {
+        width: 50%;
+    }
+
+    /* Testimonial*/
+    .testimonial-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .testimonial-item {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    /* Contact*/
+
+    .contact-section {
+        flex-wrap: wrap;
+    }
+
+    .contact-item {
+        width: 100%;
+        margin-bottom: 5%;
+    }
+
+    .contact-container .btn-container button {
+        padding: 4% 6%;
+        border-radius: 50px;
+    }
+
+    .grow {
+        order: -1;
+    }
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .header-caption .caption h1 {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    .header-caption .caption h4 {
+        font-size: 24px;
+        margin-bottom: .1%;
+    }
+
+    .header-caption .caption h3 {
+        font-size: 21px;
+        font-weight: 500;
+    }
+
+
+    .header-caption .caption button {
+        padding: 15px 40px;
+        font-size: 18px;
+    }
+
+
+    .moving-icon i {
+        font-size: 2em;
+    }
+
+    /*
+About me
+*/
+    .caption-item h2 {
+        font-size: 24px;
+    }
+
+    .about-me .about-me-caption {
+        flex-wrap: nowrap;
+    }
+
+    .about-me-caption .caption-item {
+        width: 30%;
+
+    }
+
+    .about-me-statistics {
+        flex-wrap: nowrap;
+    }
+
+    .about-me-statistics .stat-item {
+        width: 25%;
+
+    }
+
+    /*
+    Skills
+    */
+    .skills-container {
+
+        flex-wrap: wrap;
+
+    }
+
+    .skills-item {
+        width: 50%;
+    }
+
+    /* Testimonial*/
+    .testimonial-container {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .testimonial-item {
+        width: 50%;
+    }
+
+    /*Contact*/
+    .contact-section {
+        flex-wrap: nowrap;
+    }
+
+    .contact-item {
+        width: 30%;
+        text-align: left;
+    }
+
+    .grow {
+        order: 2;
+    }
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+    .header-caption .caption h4 {
+        font-size: 28px;
+        margin-bottom: .1%;
+    }
+
+    /*
+Gallery
+*/
+    .porfolio-gallery {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .gallery-column {
+        width: 33.33%;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
